@@ -9,12 +9,8 @@ The project leverages AWS Lambda, API Gateway, S3, and DynamoDB to create a scal
 4. DynamoDB:  Serves as the primary database for storing user data, subscription details, and metadata about the music catalog.
 
 ## Features:
-### User Authentication: 
-Secure user login and registration processes.
-### Subscription Management: 
-Handles user subscriptions, renewals, and cancellations.
-### Music Catalog: 
-Allows users to browse and stream available music tracks.
-### Scalable Architecture: 
-Utilizes serverless components to ensure scalability and reduce operational overhead.
+1. User Authentication: Secure user login and registration processes.
+2. Subscription Management: Handles user subscriptions, renewals, and cancellations.
+3. Music Catalog: Allows users to browse and stream available music tracks.
+4. Scalable Architecture: Utilizes serverless components to ensure scalability and reduce operational overhead.
 
