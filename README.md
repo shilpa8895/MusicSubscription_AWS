@@ -3,14 +3,10 @@ This repository contains the complete implementation of a music subscription pro
 The project leverages AWS Lambda, API Gateway, S3, and DynamoDB to create a scalable, serverless architecture for managing music subscriptions.
 
 ## Key Components:
-### AWS Lambda:
-Used for executing backend logic in response to events. This includes user authentication, subscription management, and music catalog operations.
-### API Gateway: 
-Provides a secure and scalable API interface for the frontend to interact with the backend services.
-### S3 Bucket: 
-Stores music files and other media content securely, ensuring fast and reliable access.
-### DynamoDB: 
-Serves as the primary database for storing user data, subscription details, and metadata about the music catalog.
+1. AWS Lambda: Used for executing backend logic in response to events. This includes user authentication, subscription management, and music catalog operations.
+2. API Gateway:  Provides a secure and scalable API interface for the frontend to interact with the backend services.
+3. S3 Bucket:  Stores music files and other media content securely, ensuring fast and reliable access.
+4. DynamoDB:  Serves as the primary database for storing user data, subscription details, and metadata about the music catalog.
 
 ## Features:
 ### User Authentication: 
